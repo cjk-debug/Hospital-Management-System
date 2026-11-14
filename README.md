@@ -1,11 +1,16 @@
-<div align="center">
+# Hospital Appointment and Patient Management System (`MedCore HMS`)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Web application for managing doctors, patients, appointments, medical records, and billing with `localStorage` persistence and role-based access (`Admin` / `Receptionist`).
 
-  <h1>Built with AI Studio</h2>
+## Scripts
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- `npm install` — Install dependencies
+- `npm run dev` — Start local dev server on port 3000
+- `npm test` — Run unit tests (`src/services/HospitalManager.test.ts`)
+- `npm run lint` — TypeScript type check (`tsc --noEmit`)
+- `npm run build` — Build production static bundle into `dist/`
+- `npm start` — Serve the production build on `$PORT` (default `3000`)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Deployment
 
-</div>
+No external API keys or environment variables are required. Any static host (`dist/` output) or Node PaaS (`npm run build` + `npm start`) can host this application.

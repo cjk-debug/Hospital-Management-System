@@ -1,0 +1,6 @@
+{
+  "name": "Hospital Appointment and Patient Management System",
+  "description": "Clinical operations dashboard for managing doctors, patients, appointments, medical records, and billing with object-oriented TypeScript architecture.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
